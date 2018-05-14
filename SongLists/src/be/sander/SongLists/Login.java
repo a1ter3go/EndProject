@@ -141,7 +141,10 @@ public class Login {
 		System.out.println(c.getText());
 		System.out.println(d.getText());
 
-
+		conn.InsertSong(a.getText());
+		conn.InsertSong(b.getText());
+		conn.InsertSong(c.getText());
+		conn.InsertSong(d.getText());
 
 	}
 }

@@ -22,5 +22,18 @@ public class SqliteConnection {
 			JOptionPane.showMessageDialog(null, e);
 		}
 	}
+	public static void main(String[] args) {
+		 
+        InsertSong app = new InsertSong();
+        // insert three new rows
+        app.insert("Raw Materials", 3000);
+        app.insert("Semifinished Goods", 4000);
+        app.insert("Finished Goods", 5000);
+    }
+
+	public void InsertSong(String text) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
